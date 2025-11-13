@@ -14,7 +14,7 @@ let perso2={
 }
 
 function attaque(perso1,perso){
-    if (perso1.precision()){
+    if (precision(perso1)){
         perso.pv-=perso1.attaque,console.log(perso1.nom,"inflige",perso1.attaque,"dégat à",perso.nom,",il lui reste donc",perso.pv,"pointde vie")}
     else{console.log("l'attaque de ",perso1.nom," a raté")}
 }
